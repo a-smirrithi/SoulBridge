@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure cupcake theme is applied consistently */
+:root {
+  --theme: cupcake;
+}
+
+/* Override any conflicting styles to ensure cupcake theme consistency */
+body {
+  @apply bg-base-100 text-base-content;
+}
+
+/* Custom animations for better UX with cupcake theme */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Ensure all components respect the cupcake theme */
+.card {
+  @apply bg-base-100 shadow-lg;
+}
+
+.card-body {
+  @apply text-base-content;
+}
+
+/* Consistent button styling with cupcake theme */
+.btn-cupcake {
+  @apply btn-primary;
+}
+
+/* Custom scrollbar to match cupcake theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-base-200;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-base-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
+}
