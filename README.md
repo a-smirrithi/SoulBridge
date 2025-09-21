@@ -5,6 +5,7 @@ A comprehensive mental health support system built with React and TypeScript.
 ## 🌟 Features
 
 - **Real-time Booking System** - Automatic status updates for counseling sessions
+- **Aasha** - AI Mental health companion chatbot
 - **Multi-Role Dashboard** - Tailored interfaces for Students, Counsellors, Admins, and Volunteers
 - **Feedback & Rating System** - One-time session ratings and reviews
 - **Peer Support Forum** - Moderated community discussions
@@ -51,8 +52,8 @@ A comprehensive mental health support system built with React and TypeScript.
 ## 📱 Key Components
 
 - Real-time booking status updates
-- English-only interface (multi-language support removed)
-- One-time feedback system (ratings cannot be changed)
+- One-time feedback system
+- AI Chatbot companion
 - Comprehensive admin analytics with live data
 - Moderated peer support forum
 
