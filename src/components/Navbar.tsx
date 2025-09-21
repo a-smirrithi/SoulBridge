@@ -24,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({ sidebarOpen, setSidebarOpen }) => {
             {sidebarOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
           <img 
-            src="/frontend/assets/Copilot_20250914_170149.png" 
+            src="/logo.png" 
             alt="SoulBridge Logo" 
             className="w-8 h-8"
           />

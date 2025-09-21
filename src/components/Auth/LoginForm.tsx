@@ -60,7 +60,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ onSwitchToRegister, onSwitchToVol
       <div className="card-body">
         <div className="text-center mb-6">
           <img 
-            src="/frontend/assets/Copilot_20250914_170149.png" 
+            src="/logo.png" 
             alt="SoulBridge Logo" 
             className="w-16 h-16 mx-auto mb-4"
           />
